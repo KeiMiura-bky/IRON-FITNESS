@@ -1588,19 +1588,6 @@ header .container {
     padding-right:20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .hero {
     padding:70px 0;
 }
@@ -2208,6 +2195,298 @@ header {
 .program-footer-center p {
     font-size:15px;
 }
+
+}
+
+
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .container {
+        padding-left:24px;
+        padding-right:24px;
+    }
+
+
+    /* heroセクション */
+
+    .hero h1 {
+        font-size: 70px;
+    }
+
+    .hero-subtitle {
+        font-size: 20px;
+    }
+
+    .hero .hero-description {
+        font-size: 16px;
+        color: white;
+    }
+
+
+    /* aboutセクション */
+    .about {
+        min-height: auto;
+        padding:50px 50px;
+    }
+
+    .about-selections {
+        flex-wrap: wrap;
+    }
+
+    .about-selection {
+        width: calc(50% - 15px);
+    }
+
+    .about-selection p {
+        font-size:13px;
+        line-height: 1.3;   
+    }
+
+    /* featuresセクション */
+    .features-content {
+        flex-wrap: wrap;
+    }
+
+    .features-menu {
+        width:calc(50% - 5px);
+    }
+
+    .features-menu img{
+        width:100%;
+    }
+
+    .features-menu-text h3 {
+        font-size:20px;
+    }
+
+    .features-menu-text p {
+        font-size:13px;
+        line-height: 1.5;
+    }
+
+
+
+    /* serviceセクション */
+    .service {
+        min-height: auto;
+        padding:50px 70px;
+    }
+
+    .service-content {
+        display:flex;
+        gap:30px;
+    }
+
+
+    /* voiceセクション */
+    .voice {
+        padding:50px;
+    }
+
+    .voice-content {
+        display:flex;
+        gap:10px;
+    }
+
+
+    /* blogセクション */
+    .blog-list {
+        flex-wrap: wrap;
+    }
+
+    .blog-card {
+        width:calc(100% - 40px) / 3
+    }
+
+    .blog-card-image img {
+        width:100%;
+    }
+
+}
+
+
+@media (min-width:769px) and (max-width:900px) {
+
+    .container {
+        padding-left:24px;
+        padding-right:24px;
+    }
+
+
+    /* serviceセクション */
+    .service-content {
+        flex-wrap: wrap;
+    }
+
+    .trainer-card {
+        width:calc(50% - 30px);
+    }
+
+    .trainer-card img {
+        width:100%;
+    }
+
+    .card-info h3 {
+        font-size: 18px;
+    }
+
+    .trainer-role {
+        font-size: 12px;
+    }
+
+    .trainer-license {
+        font-size: 10px;
+    }
+
+
+    /* featuresセクション */
+    .features {
+        padding:50px 60px;
+    }
+
+    .features-main {
+        flex-direction: column;
+        align-items: flex-start;
+        gap:10px;
+    }
+
+    /* pricingセクション */
+    .pricing-selection {
+        flex-wrap: wrap;
+    }
+
+    .pricing-card {
+        width:calc(50% - 5px);
+    }
+
+    /* voiceセクション */
+    .voice-content {
+        flex-wrap: wrap;
+    }
+
+    .voice-card {
+        width:calc(50% - 5px);
+    }
+
+    .voice-card img {
+        width:100%;
+    }
+
+    .voice-card:last-child {
+        margin:0 auto;
+    }
+
+
+    /* blogセクション */
+    .blog-list {
+        display:flex;
+        align-items: center;
+        gap:10px;
+
+        flex-wrap: wrap;
+    }
+
+    .blog-card {
+        width:calc(50% - 5px);
+    }
+
+    .blog-card:last-child {
+        margin: 0 auto;
+    }
+
+    .blog-card img {
+        width:100%;
+    }
+
+
+
+
+    /* aboutセクション */
+    .about {
+       padding: 50px 0;
+    }
+
+    .about .container {
+       gap: 30px;
+       align-items: center;
+    }
+
+    .about img {
+       width: 42%;
+       height: auto;
+    }
+
+    .about-content {
+       flex: 1;
+       min-width: 0;
+    }
+
+    .about-selections {
+       width: 100%;
+       flex-wrap: wrap;
+       gap: 20px;
+    }
+
+    .about-selection {
+       width: calc(50% - 10px);
+    }
+
+
+
+
+    /* accessセクション */
+    .shop-content {
+       gap: 24px;
+       align-items: flex-start;
+    }
+
+    .shop-content img {
+       width: 52%;
+       height: auto;
+    }
+
+    .shop-information {
+       flex: 1;
+       min-width: 0;
+       gap: 24px;
+    }
+
+    .shop-information-row {
+       gap: 16px;
+    }
+
+    .shop-information-row h3 {
+       width: 80px;
+       flex-shrink: 0;
+    }
+
+
+    /* header */
+    .nav-links a {
+        font-size:13px;
+    }
+
+
+    /* program.htmlセクション */
+    .program-hero h1 {
+        font-size:45px;
+    }
+
+    .program-footer-center h3 {
+        font-size:22px;
+    }
+
+    .program-footer-center p {
+        font-size:13px;
+    }
+
+
+}
+
+
 
 
 
