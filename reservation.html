@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charest="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport"
     content="width=device-width,
     initial-scale=1.0">
-    <title>筋トレサイト</title>
+    <title>IRON PERFORMANCE | パーソナルトレーニングジム</title>
     <link rel="stylesheet"
     href="style.css">
 
@@ -24,16 +24,15 @@
         <div class="reservation-header-title">
 
             <p>IRON</p>
-            <span>PEFORMANCE</span>
+            <span>PERFORMANCE</span>
 
         </div>
 
         <div class="nav-links">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">PROGRAM</a></li>
-            <li><a href="#">TRAINERS</a></li>
-            <li><a href="#">BLOG</a></li>
-            <li><a href="#">FAQ</a></li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="program.html">PROGRAM</a></li>
+            <li><a href="index.html#trainers">TRAINERS</a></li>
+            <li><a href="index.html#blog">BLOG</a></li>
         </div>
 
         <div class="hamburger">
@@ -57,7 +56,7 @@
 <section class="reservation-hero">
     <div class="container">
 
-        <h1>無料体験トレーニング<br>予約ホーム</h1>
+        <h1>無料体験トレーニング<br>予約フォーム</h1>
         <p>初めての方でも安心して体験いただけるよう、<br>カウンセリングからトレーニングまで丁寧にサポートします。<br>下記フォームよりお気軽にご予約ください</p>
 
     </div>
@@ -113,7 +112,7 @@
                         <div class="flow-heading">
                            
                            <p class="flow-title">カウンセリング</p>
-                            <p class="flow-description">お悩みや目標をヒヤリングし、最適なプランをご提示します。</p>
+                            <p class="flow-description">お悩みや目標をヒアリングし、最適なプランをご提示します。</p>
 
                         </div>
 
@@ -178,7 +177,7 @@
 
             <h2>ご予約フォーム</h2>
 
-            <div class="contact-list">
+            <form class="contact-list">
 
                 <div class="contact-name">
                    <h3>お名前</h3>
@@ -199,13 +198,9 @@
                     <h3>ご希望日時</h3>
 
                     <div class="date-select">
-                        <select required>
-                            <option value="">年 / 月 / 日</option>
-                            <option>2026 / 8 /20</option>
-                            <option>2026 / 8/ 21</option>
-                            <option>2026 / 8 /22</option>
-                        </select>
 
+                        <input type="date" required>
+                        
                         <select required>
                            <option value="">時間を選択</option>
                            <option>10:00</option>
@@ -213,6 +208,7 @@
                            <option>12:00</option>
                         </select>
                     </div>
+
                 </div>
 
                 <div class="contact-message">
@@ -222,7 +218,7 @@
 
                 <button type="submit" class="submit-btn">この内容で予約する</button>
 
-            </div>
+            </form>
         </div>
     </div>
 </section>

@@ -249,7 +249,7 @@ html {
     background-color: black;
 }
 
-.program-header .contaioner{
+.program-header .container{
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -296,7 +296,7 @@ html {
     background-color: black;
 }
 
-.reservation-header .contaioner{
+.reservation-header .container{
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -480,6 +480,7 @@ html {
 .name-input,
 .email-input,
 .telephone-input,
+.date-select input,
 .date-select select {
     width:100%;
     padding:5px 10px;
@@ -2298,7 +2299,7 @@ header {
     }
 
     .blog-card {
-        width:calc(100% - 40px) / 3
+        width:calc(100% - 40px) 
     }
 
     .blog-card-image img {
